@@ -1,0 +1,48 @@
+"""Aula 03 - Loop For"""
+
+linguagens = ['C', 'Python', 'Java']
+
+
+print(linguagens[0])
+print(linguagens[1])
+print(linguagens[2])
+
+
+for linguagem in linguagens:
+    print(linguagem.upper())
+
+
+
+print('Java' in linguagens)
+
+
+nota1 = 10.0
+nota2 = 5.5
+nota3 = 8.3
+
+media = (nota1 + nota2 + nota3) / 3
+print(media)
+
+notas = [10.0, 5.5, 8.3, 2.5]
+
+soma = 0.0
+for nota in notas:
+    soma = soma + nota
+
+media = soma / len(notas)
+print(media)
+
+
+valores = range(9, -1, -2)
+print(valores)
+
+for valor in valores:
+    print(valor)
+
+for i in range(len(linguagens)):
+    print(linguagens[i])
+
+
+
+for linguagem in linguagens:
+    print(linguagem.upper())
