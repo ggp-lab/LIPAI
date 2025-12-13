@@ -1,6 +1,6 @@
-"""Auls 03 - Set"""
+'''"""Auls 03 - Set"""
 
-numeros = {1, 12, 5, 7, 4, 3, 3, 1}
+#numeros = {1, 12, 5, 7, 4, 3, 3, 1}
 print(numeros, type(numeros))
 
 for numero in numeros:
@@ -20,7 +20,7 @@ print(numeros)
 numeros2 = {1, 5, 4, 4, 3, 11, 9}
 print(numeros2)
 numeros.update(numeros2)
-print(numeros, type(numeros))
+print(numeros, type(numeros))'''
 
 
 
